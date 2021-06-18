@@ -1,0 +1,95 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+}
+.banner1 {
+   height: 500px;
+   background: url(./banner2.jpg) center center no-repeat;
+   padding: 20px;
+}
+.about-sign-in {
+    padding: 30px;
+    text-align: right;
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.about, .signin {
+text-decoration: none;
+margin-right: 40px;
+color: black;
+}
+.signin{
+    border: 3px solid black;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+.logo img {
+    height: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.text1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text1 span {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+.button1 {
+    text-align: center;
+    margin-top: 30px;
+}
+button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: linear-gradient(
+139deg
+, #4caf50, #cddc39);
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.icon-center {
+    height: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.left, .center, .right {
+    
+    width: 15%;
+    display: inline-block;
+}
+.icon-center img {
+    height: 50px;
+    width: 50px;
+    
+}
+.icon-center span {
+    display: block;
+    text-transform: uppercase;
+}
